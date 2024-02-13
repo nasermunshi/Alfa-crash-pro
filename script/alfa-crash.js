@@ -10,6 +10,16 @@ playgroundSection.classList.remove('hidden')
 // console.log(playgroundSection.classList);
 }
 
-// function play(){
-//  hideElementById('home-screen')                   
-// }
+                   
+
+function continueGame(){
+//  // genarate rendom alphavet;
+ const alphabet = getARendomElphavet();                   
+console.log('your rendom elphavet', alphabet)
+}
+
+function play(){
+//  hideElementById('home-screen');
+//  showElementById('play-ground');
+ continueGame()              
+}
